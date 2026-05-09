@@ -1,0 +1,26 @@
+﻿@page "/"
+
+<div class="container mt-3">
+    <h1 class="mb-4">MainPage</h1>
+
+    <!--
+        Notas sobre Bootstrap:
+
+        - d-grid gap-2 es el equivalente más directo al StackLayout Orientation="Vertical" 
+           Spacing="10". Apila los hijos verticalmente y les da separación uniforme.
+        - Si querés que los botones no ocupen todo el ancho, sacá d-grid y usá 
+           class="d-flex flex-column gap-2 align-items-start".
+        - Si preferís usar un <button> con NavigationManager en vez de <a>, te queda así:
+
+    -->
+
+    <div class="d-grid gap-2">
+        <a href="/GridLayoutPage" class="btn btn-primary">
+            Ver Grid Layout
+        </a>
+
+        <a href="/StackLayoutPage" class="btn btn-primary">
+            Ver StackLayout
+        </a>
+    </div>
+</div>

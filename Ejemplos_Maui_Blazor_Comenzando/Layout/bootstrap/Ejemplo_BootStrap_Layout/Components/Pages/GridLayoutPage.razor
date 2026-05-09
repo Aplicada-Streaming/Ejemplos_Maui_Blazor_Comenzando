@@ -1,0 +1,22 @@
+﻿@page "/GridLayoutPage"
+
+<h3 class="m-2">GridLayoutPage</h3>
+
+<div class="m-2"
+     style="display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 150px 150px 150px;
+    gap: 10px;">
+
+    <div style="background-color: #ADCBFF; grid-column: 1; grid-row: 1;"></div>
+    <div style="background-color: #CCFFAD; grid-column: 2; grid-row: 1;"></div>
+    <div style="background-color: #ADCBFF; grid-column: 3; grid-row: 1;"></div>
+
+    <div style="background-color: #CCFFAD; grid-column: 1; grid-row: 2;"></div>
+
+    <div style="background-color: #ADCBFF; grid-column: 1; grid-row: 3;"></div>
+
+    <div style="background-color: #ADCBFF;
+    grid-column: 2 / span 2;
+    grid-row: 2 / span 2;"></div>
+</div>
